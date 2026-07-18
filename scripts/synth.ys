@@ -1,0 +1,14 @@
+read_verilog rtl/alu_32bit_parameterized.v
+
+hierarchy -top parameterized_alu_32_bit
+
+proc
+opt
+
+techmap
+
+abc
+
+stat
+
+write_verilog synthesis/alu_netlist.v
