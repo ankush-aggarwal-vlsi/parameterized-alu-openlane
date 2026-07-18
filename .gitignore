@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Simulation
+*.vcd
+
+# OpenLane runs
+runs/
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+
